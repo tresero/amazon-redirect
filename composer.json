@@ -1,0 +1,11 @@
+{
+    "autoload": {
+       "psr-4": {"Amazon\\": "source/",
+                 "Amazon\\Service\\": "source/",
+                 "Amazon\\DB\\": "source/"
+       }
+    },
+    "require": {
+        "geoip2/geoip2": "~2.0"
+    }
+}
